@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: dimgray;
+        }
+
+        header{
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+
+        header > h1{
+            padding: 8px;
+        
+        }
+
+        nav{
+            background-color: #9f9f9f;
+            padding: 5px;
+            margin: 3px;
+            box-shadow: 2px 2px 2px #464646;
+        }
+
+        nav > a{
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+
+        
+        nav > a:hover{
+            color: white;
+            transition: ease-in 0.5s;
+        }
+
+        main{
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+
+        }
+
+        #assuntos{
+            background: #fff;
+            padding: 10px;
+        }
+
+        #assuntos p:after{
+            content: '[conteúdo abaixo]';
+
+        }
+
+        
+        #noticias{
+            background: #9f9f9f;
+            padding: 10px;
+        }
+        
+        #noticias p{
+            text-indent: 10px;
+            letter-spacing: 0.3px;
+        }
+        
+
+        #noticias p, h2{
+            padding: 10px;
+        }
+    
+        #noticias aside{
+            margin: 10px;
+            background-color: #fff;
+        }
+
+  
+
+        footer{
+            background: black;
+            color: #fff;
+            text-align: center;
+        }
+  
+    
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>
+        <a href=""> um link</a>
+        <a href=""> dois link</a>
+        <a href=""> tres link</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            
+                <p>
+                    Assuntos a serem tratados
+                </p>
+
+        </section>
+
+        <section id="noticias">
+
+            <article>
+
+                    <h2>Aqui funciona só o h2</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
+                        eget arcu arcu. Nulla tristique, turpis id aliquet pellentesque, 
+                        massa ligula lacinia lectus, a vehicula leo tellus at tellus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
+                        eget arcu arcu. Nulla tristique, turpis id aliquet pellentesque, 
+                        massa ligula lacinia lectus, a vehicula leo tellus at tellus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
+                        eget arcu arcu. Nulla tristique, turpis id aliquet pellentesque, 
+                        massa ligula lacinia lectus, a vehicula leo tellus at tellus.
+                    </p>
+
+                    <aside>
+                        Por Felipe Pereira Souto
+                    </aside>
+
+            </article>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p> desenvolvido por mim mesmo</p>
+    </footer>
+
+</body>
+</html>
