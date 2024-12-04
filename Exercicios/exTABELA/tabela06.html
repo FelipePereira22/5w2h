@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando com COLGROUP</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 3px solid;
+        }
+
+        td, th{
+            border: 3px solid black;
+            width: 110px;
+            height: 40px;
+        }   
+
+        col.cnome{
+            background-color: rgb(209, 247, 216);
+        }
+        col.cidade{
+            background-color: rgb(98, 144, 224);
+        }
+        col.csexo{
+            background-color: rgb(195, 136, 34);
+        }
+        col.cprof{
+            background-color: rgb(196, 64, 119);
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo">
+            <col class="cprof">
+        </colgroup>
+
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Felipe</td>
+            <td>21</td>
+            <td>Homem</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Samira</td>
+            <td>20</td>
+            <td>Mulher</td>
+            <td>Química</td>
+        </tr>
+        <tr>
+            <td>Dalva</td>
+            <td>59</td>
+            <td>Mulher</td>
+            <td>Montadora</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>50</td>
+            <td>Homem</td>
+            <td>Engenheiro</td>
+        </tr>
+    </table>
+</body>
+</html>
