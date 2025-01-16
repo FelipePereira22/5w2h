@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*estilo pra tela principal*/
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+html{
+    font-family:'Times New Roman', Times, serif;
+    font-family: 1em;
+    line-height: 1em;
+}
+
+header{
+    background: gray;
+}
+
+header h1{
+    text-align: center;
+    color: #fff;
+}
+
+menu ul{
+    list-style: none;
+    text-align: center;
+}
+
+menu li{
+    display: inline-block;
+}
